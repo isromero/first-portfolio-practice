@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio, just HTML & CSS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <head>
+    <input type="checkbox" id="toggle">
+    <nav id="navbar">
+      
+      <label class="nav-button-menu" for="toggle">
+          <div class="menu-icon top"></div>
+          <div class="menu-icon middle"></div> 
+          <div class="menu-icon bottom"></div> 
+      </label>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#welcome-section">Home</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <!-- <div class="nav-button-night-mode">
+        <div class="night-mode-icon left"></div>
+        <div class="night-mode-icon right"></div>
+      </div> -->
+    </nav>
+  </head>
+  <main id="page">
+    <section id="welcome-section">
+      <h1>Hi, I'm Ismael 👋</h1>
+      <h2>A passionate programmer dedicated to crafting innovative solutions</h2>
+      <div class="welcome-projects">
+        <div class="projects">
+          <div class="row-projects">
+            <button class="important-button">minishell</button>
+            <button class="minimalist-button">philosophers</button>
+            <button class="minimalist-button">so_long</button>
+          </div>
+          <div class="row-projects">
+            <button class="minimalist-button">minitalk</button>
+            <button class="minimalist-button">born2beroot</button>
+            <button class="minimalist-button">get_next_line</button>
+          </div>
+          <div class="row-projects">
+            <button class="minimalist-button">ft_printf</button>
+            <button class="minimalist-button">libft</button>
+          </div>
+        </div>
+          <div class="rectangle-projects">
+            <div class="image-project">
+              <img src="https://camo.githubusercontent.com/08d0138e27320a2da12d68daa26dcbbe0e7deddd3eda536f405c0dab2beefb00/68747470733a2f2f692e696d6775722e636f6d2f3236596f4b6e382e706e67" alt="minishell-example" class="img-project">
+            </div>
+            <div class="info-project">
+              <h3>Minishell</h3>
+              <span>The project is to develop a shell, that is, a command line interpreter, based on bash.</span>
+              <a href="https://github.com/isromero/minishell" target="_blank"><button class="minimalist-button">Source code</button></a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="projects-boxes">
+        <div class="project-box">
+          <img src="https://camo.githubusercontent.com/08d0138e27320a2da12d68daa26dcbbe0e7deddd3eda536f405c0dab2beefb00/68747470733a2f2f692e696d6775722e636f6d2f3236596f4b6e382e706e67" alt="minishell-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>minishell</h2>
+            <p>The project is to develop a shell, that is, a command line interpreter, based on bash.</p>
+            <a href="https://github.com/isromero/minishell" target="_blank"><button class="minimalist-button">Source code</button></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/An_illustration_of_the_dining_philosophers_problem.png/1024px-An_illustration_of_the_dining_philosophers_problem.png" alt="philosophers-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>philosophers</h2>
+            <p>This project is a training to multi-threads/multi-process programming with the use of mutexes. It contains 3 different programs simulating a twist of the famous Dining Philosophers problem, all with the same basic rules.</p>
+            <a href="https://github.com/isromero/philosophers" target="_blank"><button class="minimalist-button">Source code</button></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="https://user-images.githubusercontent.com/38796098/57738594-6b6ae500-76b0-11e9-9d29-0f59ee825e8e.gif" alt="push_swap-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>push_swap</h2>
+            <p>This project aims to sort data on a stack, with a limited set of instructions, using the lowest possible number of actions.</p>
+            <a href="https://github.com/isromero/push_swap" target="_blank"><button class="minimalist-button">Source code</button></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="https://camo.githubusercontent.com/c4e1ed97eeff18e73980d6b1b8e0db45730264f57d6316fcc865cf5f0ba7e8d2/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d315644533350625a4c4a31776b5a63615a61474f61413453424972514d45303764" alt="so_long-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>so_long</h2>
+            <p>The aim of this project is to create a small 2D game where players have to pick up all collectables and go to the exit making as few moves as possible.</p>
+            <a href="https://github.com/isromero/so_long" target="_blank"><button class="minimalist-button">Source code</button></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="https://github.com/Ysoroko/minitalk/blob/master/images/server_base.png?raw=true" alt="minitalk-project" class="img-project-box center-img">
+          <div class="hidden-text">
+            <h2>minitalk</h2>
+            <p>The goal of this project is to create two executables: a server and a client.<br>
+              - The client will send information (a string) to the server using UNIX signals.<br>
+              - The server must correctly receive and interpret this information, then display it.</p>
+            <a href="https://github.com/isromero/minitalk" target="_blank"><button class="minimalist-button">Source code</button></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="https://user-images.githubusercontent.com/58959408/174728861-fb9435a5-04e5-402c-80a3-f366c9b51be8.png" alt="born2beroot-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>born2beroot</h2>
+            <p>The 42 project Born2beroot explores the fundamentals of system administration by inviting us to install and configure a virtual machine with VirtualBox. And installing services like MariaDB, Wordpress, ftp...</p>
+            <a href="https://github.com/isromero/born2beroot" target="_blank"><button class="minimalist-button">Source code</button></a>
+            </div>
+        </div>
+        <div class="project-box">
+          <img src="https://github.com/jraleman/42_get_next_line/blob/master/resources/gnl-screenshot01.png?raw=true" alt="get_next_line-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>get_next_line</h2>
+            <p>This projects is about creating a function that, allows to read a line ending with a newline character ('\n') from a file descriptor, without knowing its size beforehand. One of the goal of this project is to learn a highly interesting new concept in C programming: static variables, and to gain a deeper understanding of allocations...</p>
+            <a href="https://github.com/isromero/gnl_updated" target="_blank"><button class="minimalist-button">Source code</button></a>
+            </div>
+        </div>
+        <div class="project-box">
+          <img src="https://devhector.github.io/images/image-20210915185742218.png" alt="ft_printf-project" class="img-project-box center-img-white">
+          <div class="hidden-text">
+            <h2>ft_printf</h2>
+            <p>This project consists of coding a library that contains a simplified version of the printf function.</p>
+            <a href="https://github.com/isromero/ft_printf_updated" target="_blank"><button class="minimalist-button">Source code</button></a>
+            </div>
+        </div>
+        <div class="project-box">
+          <img src="https://gitlab.com/uploads/-/system/project/avatar/10815567/libft.png?width=64" alt="libft-project" class="img-project-box">
+          <div class="hidden-text">
+            <h2>libft</h2>
+            <p>The aim of this project is to code a C library regrouping usual functions that we’ll be allowed to use in all our other projects. At 42 we are not allowed to use standard C library function, we can use only function we coded ourself. So the longer term goal of this library is to grow with our own function.</p>
+            <a href="https://github.com/isromero/libft_updated" target="_blank"><button class="minimalist-button">Source code</button></a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contact</h1>
+      <form>
+        <fieldset>
+          <legend>Datos</legend>
+          <label for="name">Name:
+          <input type="text" id="name" name="name" placeholder="Your Name" required></label>
+          <label for="email">Email:
+          <input type="email" id="email" name="email" placeholder="Your Email" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Message</legend>
+          <label for="message"></label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+        </fieldset>
+        <button type="submit" class="minimalist-button">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <hr>
+    <div class="footer-text">
+      <span>2023 © Ismael Romero Ortega</span>
+      <div class="icons-footer">
+        <a href="https://github.com/isromero" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/ismaelromeroortega/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
